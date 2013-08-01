@@ -6,11 +6,11 @@ require 'metro_relic/version'
 Gem::Specification.new do |spec|
   spec.name          = "metro_relic"
   spec.version       = MetroRelic::VERSION
-  spec.authors       = ["Hashrocket Workstation"]
+  spec.authors       = ["Brandon Farmer and Micah Cooper"]
   spec.email         = ["dev@hashrocket.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Easily track custom newrelic metrics with a config file}
+  spec.summary       = %q{Easily track custom newrelic metrics}
+  spec.homepage      = "http://github.com/hashrocket/metro_relic"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
