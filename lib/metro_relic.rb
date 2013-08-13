@@ -87,7 +87,7 @@ module MetroRelic
     private
 
     def path=(path)
-      @method_list = File.read(path).split("\n")
+      @method_list = File.read(path).split(/\n+/)
     end
 
   end
